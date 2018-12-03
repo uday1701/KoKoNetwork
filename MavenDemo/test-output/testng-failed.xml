@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomMate Flipcart]">
+  <test thread-count="5" name="Flipcart Test Cases(failed)">
+    <classes>
+      <class name="com.flipcart.testcases.HomePageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="verifyMobilePage"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.flipcart.testcases.HomePageTest -->
+      <class name="com.flipcart.testcases.LoginPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="loginTest"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.flipcart.testcases.LoginPageTest -->
+      <class name="com.flipcart.testcases.MobilePageTest">
+        <methods>
+          <include name="verfiyBrandNameOfSecondItem"/>
+          <include name="verifyClearBrandFilter"/>
+          <include name="checkNewBrandName"/>
+          <include name="verfiyBrandCheckbox"/>
+          <include name="verfiyMobileDescription"/>
+          <include name="addMoibletoTheCart"/>
+          <include name="verfiyRamSizeOfSecondItem"/>
+          <include name="takeScreen"/>
+          <include name="selecBrandTest"/>
+          <include name="verfiyBrandNameofFirstItem"/>
+          <include name="verfiyRamSizeOfFirstItem"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.flipcart.testcases.MobilePageTest -->
+    </classes>
+  </test> <!-- Flipcart Test Cases(failed) -->
+</suite> <!-- Failed suite [AutomMate Flipcart] -->
